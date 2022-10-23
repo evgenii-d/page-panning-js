@@ -1,31 +1,31 @@
 const DATA = {
    "pagePanning": {
-      "delay": 1,
+      "delay": 10,
       "step": 1
    },
    "timeout": {
-      "video": 3,
-      "image": 120000
+      "video": 10,
+      "image": 60000
    },
    "1": {
-      "image": "assets/images/1.jpg",
-      "caption": "Squirrel"
+      "video": "assets/video/sky.webm",
+      "caption": "Sky"      
    },
    "2": {
-      "image": "assets/images/2.jpg",
+      "image": "assets/images/2.webp",
       "caption": "Moody cat"
    },
    "3": {
-      "image": "assets/images/3.jpg",
+      "image": "assets/images/3.webp",
       "caption": "Gorgeous horse"
    },
    "4": {
-      "video": "assets/video/ocean.mp4",
+      "video": "assets/video/ocean.webm",
       "caption": "3D ocean"
    },
    "5": {
-      "video": "assets/video/sky.mp4",
-      "caption": "Sky"
+      "image": "assets/images/1.webp",
+      "caption": "Squirrel"
    }
 }
 
