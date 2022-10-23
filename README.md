@@ -2,14 +2,7 @@
 Watch [example](https://evgenii-d.github.io/page-panning-js/) in full-screen mode (F11 in most browsers)
 
 # Usage
-Add [data.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/data.js) and [page-panning.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/page-panning.js) to your page
-```
-<script src="data.js" defer></script>
-<script src="script.js" defer></script>
-```
-<br>
-
-Set `delay`, `step`  through [data.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/data.js)
+Set `delay`(milliseconds) and `step`(pixels)  through [data.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/data.js)
 ```
 const DATA = {
    "pagePanning": {
@@ -20,11 +13,6 @@ const DATA = {
 }
 ```
 
-or from your script
-```
-pagePanning.delay()
-pagePanning.step()
-```
 <br>
 
 Add images or videos to [data.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/data.js) as shown below
@@ -53,12 +41,6 @@ const DATA = {
    }
    ...
 }
-```
-<br>
-
-And start panning from your script
-```
-pagePanning.play()
 ```
 
 # API
