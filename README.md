@@ -42,6 +42,22 @@ const DATA = {
    ...
 }
 ```
+<br>
+
+Change background video in [index.html](https://github.com/evgenii-d/page-panning-js/blob/main/index.html) if needed
+```
+<body>
+    <main>
+        <video src="assets/video/background.webm" loop autoplay muted></video>
+    </main>
+</body>
+```
+<br>
+
+Update svg mask for new video and add `data-id` attribute to all clickable areas. Check [mask.svg](https://github.com/evgenii-d/page-panning-js/blob/main/assets/images/mask.svg) for an example.
+<br>
+Replace inline svg in `SVG_MASK` variable in [data.js](https://github.com/evgenii-d/page-panning-js/blob/main/js/data.js)
+
 
 # API
 |call|info|
