@@ -54,6 +54,12 @@ const DATA = {
    ...
 }
 ```
+<br>
+
+And start panning from your script
+```
+pagePanning.play()
+```
 
 # API
 |call|info|
